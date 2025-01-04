@@ -8,7 +8,7 @@ public class Carta {
     private ImageView imageView;  // A imagem que será mostrada na carta
     private static final String PATH_VERSO = "/resources/interrogacao.png";  // Ajuste o caminho conforme necessário
 
-    // Nome das imagens de frente
+    //Nome das imagens de frente
     private static final String[] IMAGENS = {
         "imagemcachorro.png", "imagemgato.png", "imagembaleia.png", "imagemMacaco.png", 
         "imagemarara.png", "imagemcavalo.png", "imagemcobra.png", "imagemelefante.png", 
@@ -32,6 +32,7 @@ public class Carta {
         return revelada;  // Verifica se a carta está virada
     }
 
+    @SuppressWarnings("exports")
     public ImageView getImageView() {
         return imageView;  // Retorna o ImageView para ser adicionado ao GridPane
     }

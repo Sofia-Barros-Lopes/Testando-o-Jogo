@@ -4,8 +4,7 @@ import javafx.animation.PauseTransition;
 import javafx.fxml.FXML;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.Button;
-import javafx.scene.image.ImageView;
-import javafx.scene.control.Label;  // Certifique-se de que esta importação está aqui!
+import javafx.scene.control.Label;
 import javafx.event.ActionEvent;
 import javafx.util.Duration;
 import java.util.Collections;
